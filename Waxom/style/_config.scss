@@ -1,0 +1,98 @@
+$primery-color : white;
+$secondary-color : #33251f;
+$button-color :#998675;
+$button-color_2:#703b2a;
+$icon-color:gray;
+$icon-hover-color : #998675;
+$golden :#bb7557;
+$text-color : rgba(32, 32, 32, 0.89);
+$small-font: 14px;
+$regular-font: 16px;
+$border-radius: 5px;
+$small-border-radius: 3px;
+$transition : all .5s ease ;
+$fast_transition : all .3s ease ;
+$item_hover_color : rgba(0,0,0,0.6);
+$arrow-color : rgb(197, 135, 19) ;
+$calendar-number : rgb(53, 49, 49);
+$calendar-month : rgb(19, 18, 18);
+$footer-background : #161413;
+
+
+
+
+
+
+
+
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+
+
+button{
+    outline: none;
+    border: none;
+}
+
+section{
+    width: 100%;
+}
+
+
+
+
+@mixin media-400 {
+    @media screen  and (max-width : 400px) {
+        @content
+    }
+};
+@mixin media-500 {
+    @media screen  and (max-width : 500px) {
+        @content
+    }
+};
+@mixin media-700 {
+    @media screen  and (max-width : 700px) {
+        @content
+    }
+};
+@mixin media-600 {
+    @media screen  and (max-width : 600px) {
+        @content
+    }
+};
+
+@mixin media-800{
+    @media screen  and (max-width : 800px) {
+        @content
+    }
+};
+
+@mixin media-900{
+    @media screen  and (max-width : 900px) {
+        @content
+    }
+};
+
+
+@mixin media-1000 {
+    @media screen  and (max-width : 1000px) {
+        @content
+    }
+};
+
+@mixin media-1100 {
+    @media screen  and (max-width : 1100px) {
+        @content
+    }
+};
+
+@mixin media-1200 {
+    @media screen  and (max-width : 1200px) {
+        @content
+    }
+};
